@@ -3,24 +3,16 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="">
-      <h1>Hello! Welcome to my website.</h1>  
-      <p>Lorem ipsum dolor sit amet.</p>
+    <div className="titillium-web-regular">
+      <h1 className="fade-in-up">Hello! Welcome to my website.</h1>  
+      <p className="fade-in-up" style={{ animationDelay: '0.1s' }}>Lorem ipsum dolor sit amet.</p>
 
-      <div style={{
-        border: "1px solid #ccc",
-        borderRadius: "16px",
-        padding: "16px",
-        marginTop: "20px",
-        backgroundColor: "#fff",
-        boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
-        fontFamily: "'WDXL Lubrifont TC', sans-serif"
-      }}>
+      <div className="curved-box titillium-web-regular fade-in-up" style={{ marginBottom: "24px" }}>
         <h2>About Me</h2>
-        <p>I am a person who does coding (wow, very original)</p>
+        <p>I am a 16-year-old person who does coding (wow, very original)</p>
       </div>
 
-      <div className="curved-box titillium-web-regular">
+      <div className="curved-box titillium-web-regular" style={{ marginBottom: "24px" }}>
         <h2>Projects</h2>
         <ul>
           <li>lorem</li>
@@ -31,7 +23,7 @@ export default function Home() {
         </ul>
       </div>
 
-      <div className="curved-box titillium-web-regular">
+      <div className="curved-box titillium-web-regular" style={{ marginBottom: "24px" }}>
         <h2>Contact</h2>
         <p>123-123-4567</p>
         <button className="titillium-web-regular" onClick={() => alert("hi")}>
