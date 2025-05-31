@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <div className="titillium-web-regular">
       <h1 className="fade-in-up">Hello! Welcome to my website.</h1>  
-      <p className="fade-in-up" style={{ animationDelay: '0.1s' }}>Lorem ipsum dolor sit amet.</p>
+      <p className="fade-in-up" style={{ animationDelay: '0.5s' }}>Lorem ipsum dolor sit amet.</p>
 
-      <div className="curved-box titillium-web-regular fade-in-up" style={{ marginBottom: "24px" }}>
+      <div className="curved-box titillium-web-regular" style={{ marginBottom: "24px" }}>
         <h2>About Me</h2>
         <p>I am a 16-year-old person who does coding (wow, very original)</p>
       </div>
